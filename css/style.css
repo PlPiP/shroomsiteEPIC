@@ -1,0 +1,46 @@
+body {
+    width: 70%;
+    margin: auto;
+}
+label.nav {
+    font-size: larger; 
+    background-color: beige; 
+    padding:2px; 
+    display:block; 
+    width:100% ;
+    margin-bottom: 1%;
+}
+label.head {
+    display:block; 
+    background-color: bisque;
+    padding-left: 1%;
+}
+div.text {
+    margin: auto;
+    padding: 2%;
+    background-color: blanchedalmond;
+    border-radius: 2%;
+    overflow: hidden;
+}
+div.priceContainer {
+    display: table;
+    width: 100%;
+    border-spacing: 10px 0;
+}
+div.price {
+    width: 30%;
+    border-radius: 2%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    height: 100%;
+    display: table-cell;
+}
+img.caption {
+    clear: both;
+    margin: 4px;
+    float: right;
+    display: inline;
+    border: 2px solid black;
+    padding: 5px;
+}
